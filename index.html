@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="icon page" href="https://cms.rhinoshield.app/public/images/ip_page_sololeveling_icon_82a8226b58.jpg">
+  <title>Solo Levelling</title>
+  <style>
+    /* Variavel Global */
+    :root{  
+      --maxw:1100px; --radius:14px;
+    }
+    /* Configuração pro body */
+    html,body { 
+      scroll-behavior: smooth;
+      height:100%;
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;
+      background: #0c0c0e ;
+      color:#e6eef8
+    }
+    /* Estilo da pagina */
+    .wrap {
+      max-width:var(--maxw);
+      margin:32px auto;
+      padding:24px
+    }
+    h1 {
+      margin:0 0 12px;
+      font-size:28px
+    }
+    /* Configurações do botão */
+    li button {
+      padding: 10px 20px;
+      background: #ffffff05;
+      color: #c5ccd8;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+    }  
+    /* Animação botão */
+    li button:hover {
+     transform: scale(1.12);
+      box-shadow: 0 8px 20px rgba(97, 18, 90, 0.25);
+    }
+    /* Configuração do nav */
+    nav ul {
+      display:flex;
+      gap:10px;
+      list-style:none;
+      padding:0;
+      margin:0
+    }
+
+    /* Configuração do header */
+    header {
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      margin-bottom:28px}
+
+    .logo {
+      display:flex;
+      gap:12px;
+      align-items:center}
+    .text {
+      display:grid;
+      grid-template-columns:1fr 360px;
+      gap:15px;
+      margin-bottom:15px}
+    .image {
+      background:linear-gradient(180deg, #ffffff05,rgba(255,255,255,0.01));
+      padding:20px;
+      border-radius:var(--radius);
+      box-shadow:0 6px 24px rgba(2,6,23,0.6);
+      border:1px solid rgba(255,255,255,0.03)
+    }
+
+
+        /* Animação para os quadrados aumentar o tamanho */
+     .image {
+      position: relative;
+      overflow: visible;
+      transition: transform 0.25s ease, image-shadow 0.25s ease;
+    }
+    .image:hover {
+     transform: scale(1.03);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.55);
+    }
+
+    footer{
+      margin-top:28px;
+      font-size:14px;text-align:center
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Solo_Leveling_English_logo.svg" alt="Logo Solo Levelling" style="width:80px;height:80px;margin-top:8px">
+        <div>
+          <div style="font-weight:700">Solo Levelling</div>
+          <div style="font-size:13px">Apresentação: Sung Jin Woo e seus poderes</div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><button onclick="location.href='#sung'">Sung</button></li>
+           <li><button onclick="location.href='#belion'">Belion</button></li>
+          <li><button onclick="location.href='#sombras'">Exército de Sombras</button></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="sung" class="text">
+      <div class="image"> 
+        <h1>Sung Jin Woo</h1>
+        <p>Originalmente um caçad'or de Rank E notoriamente fraco , Jinwoo teve a chance de sua vida ao ser selecionado como o Jogador do Sistema , o que lhe concedeu a habilidade única de aumentar seu poder sem restrições. Como resultado, aproveitando as oportunidades oferecidas pelo Sistema, Jinwoo ascendeu ao poder como o maior caçador da humanidade.</p>
+        <h3 style="margin-top:18px">Principais pontos</h3>
+        <ul> 
+          <li>Força Incomensurável: Jinwoo possui uma força física tremenda. Mesmo antes de obter seu verdadeiro poder, ele era forte o suficiente para danificar criticamente a Estátua de Deus com apenas alguns socos em seu rosto e espancar Thomas Andre</li>
+          <br><li>Velocidade Incomensurável: Jinwoo é incrivelmente rápido e consegue se mover a velocidades tão altas que a maioria dos oponentes é incapaz de acompanhar seus movimentos.</li>
+          <br><li>Durabilidade Imensa: Jinwoo é incrivelmente resistente a danos físicos. Ele saiu praticamente ileso quando o Rei Formiga(Beru) o socou no rosto</li>
+          <br><li>Maestria em Combate: Jinwoo é um mestre em combate corpo a corpo e suas habilidades de luta são tão refinadas que ele consegue se defender com facilidade contra inimigos com muito mais experiência em combate.</li>
+        </ul>
+
+      </div>
+
+      <aside class="image">
+        <img src="https://i.pinimg.com/736x/90/58/39/905839f48093c7a258bf600fa0567893.jpg" alt="Sung" style="width:100%;border-radius:12px;margin-bottom:12px">
+      </aside>
+    </section>
+
+       <section id="belion" class="text">
+      <div class="image">
+        <h1>Marechal Belion - Sua principal Sombra</h1>
+        <p>Bellion é um guerreiro das sombras grande e musculoso, com dois pares de asas negras nas costas, armadura negra irregular, olhos brancos sem expressão e pele roxa brilhante, além de um capacete com um único chifre na cabeça.</p>
+        <h3 style="margin-top:18px">Poderes Belion</h3>
+        <ul class="muted">
+          <li>Força Imensa: Foi capaz de repelir sem esforço os ataques de Beru e esmagá-lo contra o chão com força suficiente para fazê-lo tossir sangue</li>
+          <br><li>Velocidade Imensa: Bellion consegue se mover a velocidades imensas, como demonstrado pela facilidade com que acompanhou os movimentos de Beru e contra-atacou seus golpes durante o treino.</li>
+          <br><li>Maestria com Espadas: Bellion demonstrou possuir um alto grau de habilidade com espadas, embora tenha sido observado que Igris é um espadachim melhor.</li>
+        </ul>
+
+      </div>
+
+      <aside class="image">
+        <img src="https://preview.redd.it/the-top-15-shadows-in-jinwoos-army-decided-by-yall-v0-jue4tvtaztue1.jpg?width=640&crop=smart&auto=webp&s=7c0880ed0f2c0cb5674e66b3cfac9d6b30bdbf73" alt="belion" style="width:100%;border-radius:12px;margin-bottom:12px">
+      </aside>
+    </section>
+
+    <section id="sombras" class="image">
+      <h2>Exército de Sombras</h2>
+      <p>O "Exército das Sombras" em Solo Leveling é o exército pessoal de Sung Jin-Woo, composto por sombras extraídas de inimigos mortos. Esse exército é fundamental para seu poder, pois suas sombras são imortais e se tornam seus soldados leais e poderosos, aumentando o poder e as opções táticas de Jin-Woo em batalha. Com o tempo, seu exército cresceu enormemente, até mesmo herdando o exército do antigo Monarca das Sombras</p>
+    </section>
+    <footer>
+      <div>Sung Jing: Eu sou o único que pode me derrotar</div>
+    </footer>
+  </div>
+</body>
+</html>
